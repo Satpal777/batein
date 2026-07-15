@@ -34,7 +34,7 @@ export default function ThemeToggler() {
       aria-label="Toggle dark mode"
       onClick={() => setTheme(dark ? "light" : "dark")}
       className={[
-        "relative h-[38px] w-[76px] rounded-full border p-0",
+        "relative h-[40px] w-[76px] rounded-full border p-0",
         "cursor-pointer [-webkit-tap-highlight-color:transparent]",
         "transition-colors duration-500",
         "focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-[3px] focus-visible:outline-[#c9f31d]",
